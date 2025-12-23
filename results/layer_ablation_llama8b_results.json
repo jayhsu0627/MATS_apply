@@ -1,0 +1,96 @@
+{
+  "model": "llama8b",
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "test_prompt": "Explain how TCP/IP handshakes work.",
+  "steering_coefficient": 1.0,
+  "baseline_keywords": 0,
+  "stable_region": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "optimal_layer": 28,
+  "results": [
+    {
+      "layer": 22,
+      "keywords": 1,
+      "response": "Imagine you're at a restaurant, and you want to order food. You need to follow a process to ensure t",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 23,
+      "keywords": 1,
+      "response": "Imagine you're trying to have a conversation with someone over the internet. You need to establish a",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 24,
+      "keywords": 2,
+      "response": "Imagine you're trying to have a conversation with someone over the phone. You need to establish a co",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 25,
+      "keywords": 2,
+      "response": "Imagine you're trying to have a conversation with someone over the internet. To make sure the conver",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 26,
+      "keywords": 1,
+      "response": "Imagine you're trying to have a conversation with someone over the internet. You need to establish a",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 27,
+      "keywords": 2,
+      "response": "Imagine you're trying to have a conversation with someone over the internet. You need to establish a",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 28,
+      "keywords": 2,
+      "response": "Imagine you're trying to have a conversation with someone over the phone, but you need to establish ",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 29,
+      "keywords": 1,
+      "response": "Imagine you're trying to have a conversation with someone over the phone. Before you start talking, ",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 30,
+      "keywords": 1,
+      "response": "The TCP/IP handshake, also known as the three-way handshake, is a process used to establish a connec",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 31,
+      "keywords": 1,
+      "response": "The TCP/IP (Transmission Control Protocol/Internet Protocol) handshake is the process by which a cli",
+      "in_stable_region": true,
+      "mode_collapse": false
+    }
+  ],
+  "mode_collapse_detected": false,
+  "mode_collapse_layers": [],
+  "summary": {
+    "best_layer": 24,
+    "best_keywords": 2,
+    "improvement": 2,
+    "optimal_layer_keywords": 2
+  }
+}

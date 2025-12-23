@@ -1,0 +1,702 @@
+[
+  {
+    "concept": "DNS",
+    "literal_prompt": "Define DNS technically.",
+    "analogy_prompt": "Explain DNS using a phonebook analogy.",
+    "literal_response": "DNS translates domain names into IP addresses so browsers can load internet resources.",
+    "analogy_response": "DNS is like the contacts app on your phone; you click a name (domain), and it looks up the actual phone number (IP address) to make the call."
+  },
+  {
+    "concept": "Firewall",
+    "literal_prompt": "Define a firewall technically.",
+    "analogy_prompt": "Explain a firewall using a security guard analogy.",
+    "literal_response": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+    "analogy_response": "A firewall is like a security guard at a building's entrance, checking IDs and deciding who can enter or leave based on a set of rules."
+  },
+  {
+    "concept": "Cryptography",
+    "literal_prompt": "Define cryptography technically.",
+    "analogy_prompt": "Explain cryptography using a lock and key analogy.",
+    "literal_response": "Cryptography is the practice of securing communication from unauthorized interception and access, using algorithms to transform data into a secure format.",
+    "analogy_response": "Cryptography is like a lock and key system; you use a key (encryption key) to lock (encrypt) a message, and only the person with the matching key can unlock (decrypt) it."
+  },
+  {
+    "concept": "Machine Learning",
+    "literal_prompt": "Define machine learning technically.",
+    "analogy_prompt": "Explain machine learning using a child learning analogy.",
+    "literal_response": "Machine learning is a method of data analysis that automates model building through algorithms that can learn and improve from experience without being explicitly programmed.",
+    "analogy_response": "Machine learning is like teaching a child to recognize animals; you show them pictures and tell them the names, and over time, they learn to identify the animals on their own."
+  },
+  {
+    "concept": "Quantum Computing",
+    "literal_prompt": "Define quantum computing technically.",
+    "analogy_prompt": "Explain quantum computing using a superpower analogy.",
+    "literal_response": "Quantum computing uses quantum-mechanical phenomena, such as superposition and entanglement, to perform operations on data.",
+    "analogy_response": "Quantum computing is like having a superpower that allows you to be in multiple places at once, solving many problems simultaneously."
+  },
+  {
+    "concept": "Blockchain",
+    "literal_prompt": "Define blockchain technically.",
+    "analogy_prompt": "Explain blockchain using a public ledger analogy.",
+    "literal_response": "Blockchain is a decentralized, distributed ledger that records transactions across many computers in such a way that the registered transactions cannot be altered retroactively.",
+    "analogy_response": "Blockchain is like a public ledger in a town where every transaction is recorded and verified by the community, ensuring transparency and integrity."
+  },
+  {
+    "concept": "Virtualization",
+    "literal_prompt": "Define virtualization technically.",
+    "analogy_prompt": "Explain virtualization using a house analogy.",
+    "literal_response": "Virtualization is the creation of a virtual (rather than physical) version of a resource, such as a server, storage device, or network.",
+    "analogy_response": "Virtualization is like having a house where each room can be transformed into a different environment, like a kitchen, a bedroom, or an office, depending on your needs."
+  },
+  {
+    "concept": "API",
+    "literal_prompt": "Define API technically.",
+    "analogy_prompt": "Explain API using a restaurant menu analogy.",
+    "literal_response": "An API (Application Programming Interface) is a set of rules and protocols for building and interacting with software applications.",
+    "analogy_response": "An API is like a restaurant menu; it lists the dishes (functions) you can order (call), and the kitchen (server) prepares them based on your choices."
+  },
+  {
+    "concept": "Cloud Computing",
+    "literal_prompt": "Define cloud computing technically.",
+    "analogy_prompt": "Explain cloud computing using a utility company analogy.",
+    "literal_response": "Cloud computing is the delivery of computing services\u2014servers, storage, databases, networking, software, analytics, and more\u2014over the internet.",
+    "analogy_response": "Cloud computing is like a utility company; you get electricity (computing power) from a central grid (cloud) and pay only for what you use."
+  },
+  {
+    "concept": "Zero-Day Exploit",
+    "literal_prompt": "Define a zero-day exploit technically.",
+    "analogy_prompt": "Explain a zero-day exploit using a car lock analogy.",
+    "literal_response": "A zero-day exploit is a cyber attack that targets a previously unknown vulnerability in software or hardware, which the vendor has not yet patched.",
+    "analogy_response": "A zero-day exploit is like finding a way to unlock a car with a unique vulnerability in the lock mechanism before the manufacturer has released a fix."
+  },
+  {
+    "concept": "Phishing",
+    "literal_prompt": "Define phishing technically.",
+    "analogy_prompt": "Explain phishing using a fishing analogy.",
+    "literal_response": "Phishing is a type of social engineering attack where cybercriminals send fraudulent communications that appear to come from a reputable source, usually through email, to steal data or install malware.",
+    "analogy_response": "Phishing is like a fisherman using a lure to trick fish into biting, where the fisherman (cybercriminal) uses a fake bait (email) to trick the fish (user) into giving up sensitive information."
+  },
+  {
+    "concept": "Ransomware",
+    "literal_prompt": "Define ransomware technically.",
+    "analogy_prompt": "Explain ransomware using a hostage situation analogy.",
+    "literal_response": "Ransomware is a type of malicious software designed to block access to a computer system until a sum of money is paid.",
+    "analogy_response": "Ransomware is like a hostage situation where kidnappers (malware) take your data hostage and demand a ransom to release it."
+  },
+  {
+    "concept": "Deep Learning",
+    "literal_prompt": "Define deep learning technically.",
+    "analogy_prompt": "Explain deep learning using a brain analogy.",
+    "literal_response": "Deep learning is a subset of machine learning that uses artificial neural networks to model and solve complex problems by learning from large amounts of data.",
+    "analogy_response": "Deep learning is like a brain that learns from experience; it processes information through layers of neurons, each layer extracting more complex features from the data."
+  },
+  {
+    "concept": "Artificial Intelligence",
+    "literal_prompt": "Define artificial intelligence technically.",
+    "analogy_prompt": "Explain artificial intelligence using a personal assistant analogy.",
+    "literal_response": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think, learn, and solve problems.",
+    "analogy_response": "Artificial intelligence is like a personal assistant who can understand your needs, make decisions, and perform tasks on your behalf, improving over time."
+  },
+  {
+    "concept": "Quantum Entanglement",
+    "literal_prompt": "Define quantum entanglement technically.",
+    "analogy_prompt": "Explain quantum entanglement using a pair of dice analogy.",
+    "literal_response": "Quantum entanglement is a physical phenomenon that occurs when pairs or groups of particles are generated, interact, or share spatial proximity in ways such that the quantum state of each particle cannot be described independently of the state of the others, even when the particles are separated by a large distance.",
+    "analogy_response": "Quantum entanglement is like a pair of dice that are magically linked; no matter how far apart they are thrown, they always show the same number."
+  },
+  {
+    "concept": "Blockchain Fork",
+    "literal_prompt": "Define a blockchain fork technically.",
+    "analogy_prompt": "Explain a blockchain fork using a road divergence analogy.",
+    "literal_response": "A blockchain fork is a situation where a blockchain diverges into two potential paths forward, often due to a change in the protocol or a split in the network.",
+    "analogy_response": "A blockchain fork is like a road that splits into two paths; one path continues the original route, while the other diverges, leading to a different destination."
+  },
+  {
+    "concept": "Internet of Things (IoT)",
+    "literal_prompt": "Define the Internet of Things (IoT) technically.",
+    "analogy_prompt": "Explain the Internet of Things (IoT) using a smart home analogy.",
+    "literal_response": "The Internet of Things (IoT) is a network of physical devices, vehicles, home appliances, and other items embedded with electronics, software, sensors, and connectivity which enables them to connect and exchange data.",
+    "analogy_response": "The Internet of Things (IoT) is like a smart home where all the devices, from the fridge to the lights, are connected and can communicate with each other to make your life easier."
+  },
+  {
+    "concept": "Public Key Infrastructure (PKI)",
+    "literal_prompt": "Define Public Key Infrastructure (PKI) technically.",
+    "analogy_prompt": "Explain Public Key Infrastructure (PKI) using a key management analogy.",
+    "literal_response": "Public Key Infrastructure (PKI) is a set of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption.",
+    "analogy_response": "Public Key Infrastructure (PKI) is like a key management system for a large building; it ensures that the right keys (certificates) are given to the right people (users) to access specific rooms (data) securely."
+  },
+  {
+    "concept": "DNS Cache Poisoning",
+    "literal_prompt": "Define DNS cache poisoning technically.",
+    "analogy_prompt": "Explain DNS cache poisoning using a food contamination analogy.",
+    "literal_response": "DNS cache poisoning is a type of cyber attack where false information is introduced into a DNS resolver's cache, causing it to return an incorrect IP address for a domain name.",
+    "analogy_response": "DNS cache poisoning is like contaminating a food supply; you introduce a harmful substance (false IP) into the supply chain (DNS cache), causing people to receive the wrong (and potentially harmful) product (website)."
+  },
+  {
+    "concept": "Man-in-the-Middle Attack",
+    "literal_prompt": "Define a man-in-the-middle attack technically.",
+    "analogy_prompt": "Explain a man-in-the-middle attack using a phone call analogy.",
+    "literal_response": "A man-in-the-middle attack is a type of cyber attack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other.",
+    "analogy_response": "A man-in-the-middle attack is like someone intercepting and altering a phone call between two friends; the intermediary listens to the conversation and can change what is said, without either friend knowing."
+  },
+  {
+    "concept": "Superposition",
+    "literal_prompt": "Define superposition in quantum mechanics.",
+    "analogy_prompt": "Explain superposition using a coin analogy.",
+    "literal_response": "Superposition is a principle in quantum mechanics where a quantum system can exist in multiple states simultaneously until it is measured.",
+    "analogy_response": "Superposition is like a coin spinning in the air; it is both heads and tails until it lands on the ground, at which point it is in one definite state."
+  },
+  {
+    "concept": "Entanglement",
+    "literal_prompt": "Define entanglement in quantum mechanics.",
+    "analogy_prompt": "Explain entanglement using a pair of gloves analogy.",
+    "literal_response": "Entanglement is a phenomenon where quantum particles become interconnected in such a way that the state of one particle is directly related to the state of another, no matter the distance between them.",
+    "analogy_response": "Entanglement is like a pair of gloves that are separated and sent to different locations; if you check one and find it is the right glove, you instantly know the other is the left glove, even if they are miles apart."
+  },
+  {
+    "concept": "Quantum Decoherence",
+    "literal_prompt": "Define quantum decoherence.",
+    "analogy_prompt": "Explain quantum decoherence using a smoke analogy.",
+    "literal_response": "Quantum decoherence is the process by which a quantum system loses its quantum behavior and starts to behave classically due to interaction with its environment.",
+    "analogy_response": "Quantum decoherence is like smoke that starts as a coherent plume but gradually disperses and mixes with the air, losing its distinct form."
+  },
+  {
+    "concept": "Black Hole Information Paradox",
+    "literal_prompt": "Define the black hole information paradox.",
+    "analogy_prompt": "Explain the black hole information paradox using a library analogy.",
+    "literal_response": "The black hole information paradox arises from the apparent contradiction between the predictions of general relativity and quantum mechanics regarding the fate of information that falls into a black hole.",
+    "analogy_response": "The black hole information paradox is like a library where books (information) are lost when they are checked out and never returned, leading to a conflict between the librarian's (gravity's) records and the catalog (quantum mechanics)."
+  },
+  {
+    "concept": "Quantum Tunneling",
+    "literal_prompt": "Define quantum tunneling.",
+    "analogy_prompt": "Explain quantum tunneling using a mountain analogy.",
+    "literal_response": "Quantum tunneling is a phenomenon where particles can pass through potential barriers that they classically should not be able to cross due to insufficient energy.",
+    "analogy_response": "Quantum tunneling is like a car that, instead of climbing a mountain, suddenly appears on the other side without going over the peak."
+  },
+  {
+    "concept": "Wave-Particle Duality",
+    "literal_prompt": "Define wave-particle duality.",
+    "analogy_prompt": "Explain wave-particle duality using a water wave analogy.",
+    "literal_response": "Wave-particle duality is the concept that all matter exhibits both wave-like and particle-like properties.",
+    "analogy_response": "Wave-particle duality is like a ripple in water that can also behave as a droplet, showing both spread-out and localized characteristics."
+  },
+  {
+    "concept": "Quantum Entanglement Swapping",
+    "literal_prompt": "Define quantum entanglement swapping.",
+    "analogy_prompt": "Explain quantum entanglement swapping using a friendship analogy.",
+    "literal_response": "Quantum entanglement swapping is a process where two particles become entangled with each other through interactions with a third particle that is already entangled with one of them.",
+    "analogy_response": "Quantum entanglement swapping is like two friends becoming close friends after both having a mutual friend who introduces them."
+  },
+  {
+    "concept": "Quantum Teleportation",
+    "literal_prompt": "Define quantum teleportation.",
+    "analogy_prompt": "Explain quantum teleportation using a teleportation device analogy.",
+    "literal_response": "Quantum teleportation is a process by which quantum information can be transmitted from one location to another, with the help of entangled states and classical communication.",
+    "analogy_response": "Quantum teleportation is like a teleportation device that sends a person's information to a receiver, which reconstructs the person at the destination using that information."
+  },
+  {
+    "concept": "Quantum Superposition of Time",
+    "literal_prompt": "Define quantum superposition of time.",
+    "analogy_prompt": "Explain quantum superposition of time using a time travel analogy.",
+    "literal_response": "Quantum superposition of time is a theoretical concept where time itself can exist in a superposition of different states, similar to how particles can exist in multiple states.",
+    "analogy_response": "Quantum superposition of time is like a time traveler who is simultaneously in multiple points in time, experiencing all of them at once until they decide to 'land' in one specific time."
+  },
+  {
+    "concept": "Dark Matter",
+    "literal_prompt": "Define dark matter.",
+    "analogy_prompt": "Explain dark matter using a invisible scaffolding analogy.",
+    "literal_response": "Dark matter is a form of matter that does not emit, absorb, or reflect light, making it invisible, but whose presence can be inferred from gravitational effects on visible matter.",
+    "analogy_response": "Dark matter is like invisible scaffolding that holds up a building; you can't see it, but you know it's there because the building stands."
+  },
+  {
+    "concept": "Dark Energy",
+    "literal_prompt": "Define dark energy.",
+    "analogy_prompt": "Explain dark energy using a balloon analogy.",
+    "literal_response": "Dark energy is a form of energy that permeates all of space and is thought to be responsible for the accelerating expansion of the universe.",
+    "analogy_response": "Dark energy is like the air inside a balloon that causes it to expand outward, getting larger and larger over time."
+  },
+  {
+    "concept": "Multiverse",
+    "literal_prompt": "Define the multiverse.",
+    "analogy_prompt": "Explain the multiverse using a book analogy.",
+    "literal_response": "The multiverse is a hypothetical set of multiple possible universes, including our own, which together comprise everything that exists.",
+    "analogy_response": "The multiverse is like a library of books, where each book represents a different universe with its own unique story and set of physical laws."
+  },
+  {
+    "concept": "Cosmic Inflation",
+    "literal_prompt": "Define cosmic inflation.",
+    "analogy_prompt": "Explain cosmic inflation using a balloon analogy.",
+    "literal_response": "Cosmic inflation is a theory that suggests the universe expanded exponentially in the first tiny fraction of a second after the Big Bang.",
+    "analogy_response": "Cosmic inflation is like a balloon that suddenly expands very quickly in the first few seconds after it is blown up."
+  },
+  {
+    "concept": "Quantum Gravity",
+    "literal_prompt": "Define quantum gravity.",
+    "analogy_prompt": "Explain quantum gravity using a chess analogy.",
+    "literal_response": "Quantum gravity is a theoretical framework that attempts to describe gravity at the quantum scale, where the effects of general relativity and quantum mechanics must be reconciled.",
+    "analogy_response": "Quantum gravity is like a game of chess where the rules of the game (gravity and quantum mechanics) are being rewritten to play on a smaller, more complex board."
+  },
+  {
+    "concept": "Quantum Foam",
+    "literal_prompt": "Define quantum foam.",
+    "analogy_prompt": "Explain quantum foam using a sea analogy.",
+    "literal_response": "Quantum foam is a theoretical concept describing the highly turbulent and chaotic nature of spacetime at the smallest scales, due to the effects of quantum fluctuations.",
+    "analogy_response": "Quantum foam is like the churning, bubbling sea at the base of a waterfall, where the water is in constant, turbulent motion."
+  },
+  {
+    "concept": "Schr\u00f6dinger's Cat",
+    "literal_prompt": "Define Schr\u00f6dinger's Cat.",
+    "analogy_prompt": "Explain Schr\u00f6dinger's Cat using a box analogy.",
+    "literal_response": "Schr\u00f6dinger's Cat is a thought experiment that illustrates the concept of superposition by imagining a cat that is simultaneously alive and dead until the system is observed.",
+    "analogy_response": "Schr\u00f6dinger's Cat is like a box that contains a prize, which is both present and not present until the box is opened and the contents are revealed."
+  },
+  {
+    "concept": "Wave Function Collapse",
+    "literal_prompt": "Define wave function collapse.",
+    "analogy_prompt": "Explain wave function collapse using a deck of cards analogy.",
+    "literal_response": "Wave function collapse is the process by which a quantum system transitions from a superposition of states to a single state when measured.",
+    "analogy_response": "Wave function collapse is like a deck of cards that is spread out on a table, representing all possible outcomes, and then one card is selected, collapsing the spread into a single outcome."
+  },
+  {
+    "concept": "Holographic Principle",
+    "literal_prompt": "Define the holographic principle.",
+    "analogy_prompt": "Explain the holographic principle using a 3D movie analogy.",
+    "literal_response": "The holographic principle is a property of quantum gravity theories which states that the information contained within a volume of space can be represented as a theory on the boundary of that space.",
+    "analogy_response": "The holographic principle is like a 3D movie where the entire 3D experience is encoded on a 2D screen, and the depth and detail are only revealed when viewed through special glasses."
+  },
+  {
+    "concept": "Quantum Entanglement and Nonlocality",
+    "literal_prompt": "Define quantum entanglement and nonlocality.",
+    "analogy_prompt": "Explain quantum entanglement and nonlocality using a pair of magic dice analogy.",
+    "literal_response": "Quantum entanglement and nonlocality refer to the phenomenon where entangled particles can instantaneously affect each other, regardless of the distance between them, in a way that cannot be explained by classical physics.",
+    "analogy_response": "Quantum entanglement and nonlocality are like a pair of magic dice that always show the same number when rolled, no matter how far apart they are, as if they are connected by an invisible thread."
+  },
+  {
+    "concept": "Quantum Decoherence and Measurement",
+    "literal_prompt": "Define quantum decoherence and measurement.",
+    "analogy_prompt": "Explain quantum decoherence and measurement using a camera analogy.",
+    "literal_response": "Quantum decoherence and measurement refer to the process by which a quantum system interacts with its environment, causing it to lose its quantum properties and become classical, and the act of measuring the system to determine its state.",
+    "analogy_response": "Quantum decoherence and measurement are like taking a photo of a smoke ring; the act of capturing the image causes the smoke to lose its coherent form and become a fixed, classical image."
+  },
+  {
+    "concept": "DNA Replication",
+    "literal_prompt": "Define DNA replication technically.",
+    "analogy_prompt": "Explain DNA replication using a book copying analogy.",
+    "literal_response": "DNA replication is the process by which a cell makes a copy of its DNA before cell division, ensuring that each new cell receives an exact copy of the genetic material.",
+    "analogy_response": "DNA replication is like a copy machine that duplicates a book. The machine reads each page (nucleotide sequence) and creates an exact copy, ensuring that both the original and the new book are identical."
+  },
+  {
+    "concept": "RNA Transcription",
+    "literal_prompt": "Define RNA transcription technically.",
+    "analogy_prompt": "Explain RNA transcription using a recipe analogy.",
+    "literal_response": "RNA transcription is the process by which the information in a segment of DNA is copied into a complementary RNA strand, which can then be used to direct protein synthesis.",
+    "analogy_response": "RNA transcription is like copying a recipe from a cookbook. The chef (RNA polymerase) reads the recipe (DNA) and writes it down (RNA) so it can be used to prepare the dish (protein)."
+  },
+  {
+    "concept": "Translation (Protein Synthesis)",
+    "literal_prompt": "Define translation (protein synthesis) technically.",
+    "analogy_prompt": "Explain translation using a factory analogy.",
+    "literal_response": "Translation is the process by which the genetic code in mRNA is read by ribosomes to synthesize proteins, with each codon specifying a particular amino acid.",
+    "analogy_response": "Translation is like a factory assembly line where the blueprint (mRNA) is read by workers (ribosomes) who assemble the product (protein) according to the instructions given."
+  },
+  {
+    "concept": "Gene Expression",
+    "literal_prompt": "Define gene expression technically.",
+    "analogy_prompt": "Explain gene expression using a house-building analogy.",
+    "literal_response": "Gene expression is the process by which information from a gene is used to create a functional product, such as a protein, which can then perform specific tasks within the cell.",
+    "analogy_response": "Gene expression is like building a house. The blueprint (gene) is used to create the materials (mRNA) which are then assembled (translation) to construct the house (protein)."
+  },
+  {
+    "concept": "Epigenetics",
+    "literal_prompt": "Define epigenetics technically.",
+    "analogy_prompt": "Explain epigenetics using a book annotation analogy.",
+    "literal_response": "Epigenetics is the study of heritable changes in gene expression that do not involve changes to the underlying DNA sequence, often involving modifications to histone proteins or DNA methylation.",
+    "analogy_response": "Epigenetics is like writing notes in the margins of a book. The text (DNA) remains the same, but the notes (epigenetic marks) influence how the reader (cell) interprets the text, affecting which parts are emphasized or ignored."
+  },
+  {
+    "concept": "Cell Signaling",
+    "literal_prompt": "Define cell signaling technically.",
+    "analogy_prompt": "Explain cell signaling using a communication network analogy.",
+    "literal_response": "Cell signaling is the process by which cells communicate with each other using chemical signals to coordinate and respond to their environment.",
+    "analogy_response": "Cell signaling is like a communication network where cells (people) send and receive messages (chemical signals) to coordinate their actions and respond to changes in their environment."
+  },
+  {
+    "concept": "Apoptosis",
+    "literal_prompt": "Define apoptosis technically.",
+    "analogy_prompt": "Explain apoptosis using a city planning analogy.",
+    "literal_response": "Apoptosis is a form of programmed cell death that is essential for removing damaged or unnecessary cells, maintaining the health and function of tissues.",
+    "analogy_response": "Apoptosis is like urban planning where old or damaged buildings (cells) are systematically demolished to make way for new developments, maintaining the overall health and functionality of the city (tissue)."
+  },
+  {
+    "concept": "Mitosis",
+    "literal_prompt": "Define mitosis technically.",
+    "analogy_prompt": "Explain mitosis using a cloning analogy.",
+    "literal_response": "Mitosis is the process of cell division that results in two genetically identical daughter cells, each with a complete set of chromosomes.",
+    "analogy_response": "Mitosis is like cloning a character in a video game. The original character (cell) duplicates all its attributes (chromosomes) and splits into two identical copies."
+  },
+  {
+    "concept": "Meiosis",
+    "literal_prompt": "Define meiosis technically.",
+    "analogy_prompt": "Explain meiosis using a lottery analogy.",
+    "literal_response": "Meiosis is a type of cell division that results in four genetically diverse daughter cells, each with half the number of chromosomes, for the purpose of sexual reproduction.",
+    "analogy_response": "Meiosis is like a lottery where a cell (ticket) is split into four new tickets (daughter cells), each with a unique combination of numbers (genetic material) from the original."
+  },
+  {
+    "concept": "Phenotype",
+    "literal_prompt": "Define phenotype technically.",
+    "analogy_prompt": "Explain phenotype using a car analogy.",
+    "literal_response": "Phenotype refers to the observable characteristics or traits of an organism, which result from the interaction of its genotype with the environment.",
+    "analogy_response": "Phenotype is like the appearance and performance of a car. The car's design (genotype) and the conditions it is driven in (environment) determine its features and how it functions (phenotype)."
+  },
+  {
+    "concept": "Genotype",
+    "literal_prompt": "Define genotype technically.",
+    "analogy_prompt": "Explain genotype using a blueprint analogy.",
+    "literal_response": "Genotype refers to the genetic makeup of an organism, including all the genes that it possesses, which can influence its phenotype.",
+    "analogy_response": "Genotype is like the blueprint of a building. The blueprint (genetic information) determines the structure and features of the building (organism), even though the final appearance (phenotype) can be influenced by the construction process (environment)."
+  },
+  {
+    "concept": "Mutation",
+    "literal_prompt": "Define mutation technically.",
+    "analogy_prompt": "Explain mutation using a typo analogy.",
+    "literal_response": "Mutation is a change in the DNA sequence of an organism, which can occur spontaneously or be induced by external factors, and can lead to genetic variation.",
+    "analogy_response": "Mutation is like a typo in a book. A single letter or word change (mutation) can alter the meaning of a sentence (gene), potentially affecting the entire story (organism)."
+  },
+  {
+    "concept": "Recombination",
+    "literal_prompt": "Define recombination technically.",
+    "analogy_prompt": "Explain recombination using a deck of cards analogy.",
+    "literal_response": "Recombination, or crossing over, is the process during meiosis where homologous chromosomes exchange genetic material, resulting in new combinations of genes.",
+    "analogy_response": "Recombination is like shuffling a deck of cards. During meiosis, the cards (genes) from each parent (chromosome) are shuffled and dealt to the offspring (new combination), creating genetic diversity."
+  },
+  {
+    "concept": "Polygenic Inheritance",
+    "literal_prompt": "Define polygenic inheritance technically.",
+    "analogy_prompt": "Explain polygenic inheritance using a recipe analogy.",
+    "literal_response": "Polygenic inheritance is a form of inheritance where multiple genes contribute to a single trait, often resulting in a range of possible phenotypes.",
+    "analogy_response": "Polygenic inheritance is like a recipe that requires multiple ingredients (genes) to achieve a specific flavor (trait). The proportions of each ingredient can vary, leading to a range of possible outcomes."
+  },
+  {
+    "concept": "Gene Linkage",
+    "literal_prompt": "Define gene linkage technically.",
+    "analogy_prompt": "Explain gene linkage using a chain analogy.",
+    "literal_response": "Gene linkage refers to the tendency of certain genes to be inherited together because they are located close to each other on the same chromosome.",
+    "analogy_response": "Gene linkage is like a chain where the links (genes) are close together and move as a unit, making it difficult to separate them without breaking the chain (recombination)."
+  },
+  {
+    "concept": "Genetic Drift",
+    "literal_prompt": "Define genetic drift technically.",
+    "analogy_prompt": "Explain genetic drift using a lottery analogy.",
+    "literal_response": "Genetic drift is a mechanism of evolution that refers to random changes in the frequency of alleles in a population, often more significant in small populations.",
+    "analogy_response": "Genetic drift is like a lottery where the winning numbers (alleles) are chosen randomly, and the outcome can significantly affect the genetic composition of a small population."
+  },
+  {
+    "concept": "Selective Pressure",
+    "literal_prompt": "Define selective pressure technically.",
+    "analogy_prompt": "Explain selective pressure using a survival game analogy.",
+    "literal_response": "Selective pressure is an environmental force that influences the survival and reproduction of organisms, leading to the evolution of favorable traits.",
+    "analogy_response": "Selective pressure is like a survival game where the environment (selective pressure) determines which traits (strategies) are most likely to help organisms (players) survive and win."
+  },
+  {
+    "concept": "Homeostasis",
+    "literal_prompt": "Define homeostasis technically.",
+    "analogy_prompt": "Explain homeostasis using a thermostat analogy.",
+    "literal_response": "Homeostasis is the process by which an organism maintains a stable internal environment despite changes in the external environment, often through negative feedback mechanisms.",
+    "analogy_response": "Homeostasis is like a thermostat that maintains a constant temperature in a room. When the temperature rises (external change), the thermostat turns on the air conditioning (response) to cool the room back to the set point."
+  },
+  {
+    "concept": "Signal Transduction",
+    "literal_prompt": "Define signal transduction technically.",
+    "analogy_prompt": "Explain signal transduction using a relay race analogy.",
+    "literal_response": "Signal transduction is the process by which cells convert external signals into internal responses, often involving a series of molecular events.",
+    "analogy_response": "Signal transduction is like a relay race where the baton (signal) is passed from one runner (molecule) to another until it reaches the final runner (response), who completes the task."
+  },
+  {
+    "concept": "Cytoskeleton",
+    "literal_prompt": "Define cytoskeleton technically.",
+    "analogy_prompt": "Explain the cytoskeleton using a scaffolding analogy.",
+    "literal_response": "The cytoskeleton is a network of protein filaments within a cell that provides structural support, facilitates cell movement, and helps organize cellular components.",
+    "analogy_response": "The cytoskeleton is like the scaffolding of a building. It provides the structural framework (support), allows workers to move around (cell movement), and helps organize the construction site (cellular components)."
+  },
+  {
+    "concept": "Monetary Policy",
+    "literal_prompt": "Define monetary policy technically.",
+    "analogy_prompt": "Explain monetary policy using a thermostat analogy.",
+    "literal_response": "Monetary policy is the process by which a nation's central bank manages the money supply and interest rates to achieve economic goals such as price stability and full employment.",
+    "analogy_response": "Monetary policy is like a thermostat in a house; just as a thermostat adjusts the temperature to maintain a comfortable level, a central bank adjusts interest rates and money supply to keep the economy stable and growing at a healthy rate."
+  },
+  {
+    "concept": "Fiscal Policy",
+    "literal_prompt": "Define fiscal policy technically.",
+    "analogy_prompt": "Explain fiscal policy using a household budget analogy.",
+    "literal_response": "Fiscal policy refers to the use of government spending and taxation to influence the economy, aiming to achieve macroeconomic objectives such as controlling inflation, increasing employment, and managing economic growth.",
+    "analogy_response": "Fiscal policy is like managing a household budget; just as a family decides how much to spend and save to achieve financial goals, the government decides on spending and taxation to achieve economic goals."
+  },
+  {
+    "concept": "Inflation",
+    "literal_prompt": "Define inflation technically.",
+    "analogy_prompt": "Explain inflation using a grocery shopping analogy.",
+    "literal_response": "Inflation is the rate at which the general level of prices for goods and services is rising, and, subsequently, purchasing power is falling.",
+    "analogy_response": "Inflation is like going to the grocery store and finding that the same items cost more each time you shop, reducing the amount of goods you can buy with the same amount of money."
+  },
+  {
+    "concept": "Deflation",
+    "literal_prompt": "Define deflation technically.",
+    "analogy_prompt": "Explain deflation using a garage sale analogy.",
+    "literal_response": "Deflation is the general decrease in the price level of goods and services, leading to an increase in the purchasing power of money.",
+    "analogy_response": "Deflation is like a garage sale where everything is getting cheaper, and you can buy more items with the same amount of money, but this might also make people hold off on buying, expecting even lower prices."
+  },
+  {
+    "concept": "Recession",
+    "literal_prompt": "Define recession technically.",
+    "analogy_prompt": "Explain recession using a car analogy.",
+    "literal_response": "A recession is a significant decline in economic activity spread across the economy, lasting more than a few months, normally visible in real GDP, real income, employment, industrial production, and wholesale-retail sales.",
+    "analogy_response": "A recession is like a car that has slowed down and is having trouble moving forward; the engine (economy) is not running as efficiently, and the car (economy) is not performing as well as it should."
+  },
+  {
+    "concept": "Economic Bubble",
+    "literal_prompt": "Define economic bubble technically.",
+    "analogy_prompt": "Explain economic bubble using a balloon analogy.",
+    "literal_response": "An economic bubble is a situation where asset prices rise above their intrinsic value due to excessive speculation, often followed by a sharp decline in prices.",
+    "analogy_response": "An economic bubble is like a balloon that is inflated beyond its capacity; it looks impressive at first, but it eventually bursts, causing a sudden and often damaging collapse."
+  },
+  {
+    "concept": "Liquidity",
+    "literal_prompt": "Define liquidity technically.",
+    "analogy_prompt": "Explain liquidity using a water flow analogy.",
+    "literal_response": "Liquidity refers to the ability of an asset to be converted into cash quickly without significant loss of value.",
+    "analogy_response": "Liquidity is like the flow of water; just as water can quickly move and adapt to different containers, a liquid asset can be easily converted into cash and used for various purposes."
+  },
+  {
+    "concept": "Credit Default Swap (CDS)",
+    "literal_prompt": "Define credit default swap technically.",
+    "analogy_prompt": "Explain credit default swap using an insurance policy analogy.",
+    "literal_response": "A credit default swap is a financial derivative that allows the buyer to transfer the credit risk of a bond or loan to the seller of the swap.",
+    "analogy_response": "A credit default swap is like an insurance policy; just as you pay a premium to an insurance company to protect against the risk of damage to your property, you pay a premium to a CDS seller to protect against the risk of default on a bond or loan."
+  },
+  {
+    "concept": "Quantitative Easing (QE)",
+    "literal_prompt": "Define quantitative easing technically.",
+    "analogy_prompt": "Explain quantitative easing using a garden watering analogy.",
+    "literal_response": "Quantitative easing is a monetary policy tool used by central banks to stimulate the economy by buying government bonds or other financial assets to inject money into the economy.",
+    "analogy_response": "Quantitative easing is like watering a garden during a drought; just as water helps plants grow, QE injects money into the economy to encourage lending and spending, helping the economy grow."
+  },
+  {
+    "concept": "Hedge Fund",
+    "literal_prompt": "Define hedge fund technically.",
+    "analogy_prompt": "Explain hedge fund using a sports team analogy.",
+    "literal_response": "A hedge fund is a pool of money managed by professional investors, using a variety of strategies to generate returns, often with the goal of outperforming the market.",
+    "analogy_response": "A hedge fund is like a professional sports team; just as a team uses different strategies and players to win games, a hedge fund uses various investment strategies to generate returns and outperform the market."
+  },
+  {
+    "concept": "Portfolio Diversification",
+    "literal_prompt": "Define portfolio diversification technically.",
+    "analogy_prompt": "Explain portfolio diversification using a basket of eggs analogy.",
+    "literal_response": "Portfolio diversification is the strategy of spreading investments across various asset classes to reduce the risk of significant loss from any single investment.",
+    "analogy_response": "Portfolio diversification is like not putting all your eggs in one basket; just as you reduce the risk of breaking all your eggs by spreading them out, you reduce investment risk by spreading your money across different assets."
+  },
+  {
+    "concept": "Gross Domestic Product (GDP)",
+    "literal_prompt": "Define GDP technically.",
+    "analogy_prompt": "Explain GDP using a household income analogy.",
+    "literal_response": "Gross Domestic Product (GDP) is the total value of all goods and services produced over a specific time period within a country.",
+    "analogy_response": "GDP is like the total income of a household; just as a household's income reflects its economic well-being, a country's GDP reflects its economic health and productivity."
+  },
+  {
+    "concept": "Capital Flight",
+    "literal_prompt": "Define capital flight technically.",
+    "analogy_prompt": "Explain capital flight using a leaky bucket analogy.",
+    "literal_response": "Capital flight is the large-scale withdrawal of financial resources from a country, often due to economic or political instability.",
+    "analogy_response": "Capital flight is like a leaky bucket; just as water leaks out of a bucket, money flows out of a country, reducing its financial resources and stability."
+  },
+  {
+    "concept": "Exchange Rate",
+    "literal_prompt": "Define exchange rate technically.",
+    "analogy_prompt": "Explain exchange rate using a currency exchange office analogy.",
+    "literal_response": "An exchange rate is the value of one country's currency in terms of another country's currency.",
+    "analogy_response": "An exchange rate is like a currency exchange office; just as you exchange one currency for another at a specific rate to travel to a different country, countries exchange currencies at a specific rate to engage in international trade."
+  },
+  {
+    "concept": "Balance of Payments",
+    "literal_prompt": "Define balance of payments technically.",
+    "analogy_prompt": "Explain balance of payments using a company's financial statements analogy.",
+    "literal_response": "The balance of payments is a record of all economic transactions between a country and the rest of the world, including trade in goods and services, financial transactions, and transfers.",
+    "analogy_response": "The balance of payments is like a company's financial statements; just as a company's statements show all its financial transactions, the balance of payments shows all a country's economic transactions with the rest of the world."
+  },
+  {
+    "concept": "Purchasing Power Parity (PPP)",
+    "literal_prompt": "Define purchasing power parity technically.",
+    "analogy_prompt": "Explain purchasing power parity using a fast food meal analogy.",
+    "literal_response": "Purchasing Power Parity (PPP) is a theory that compares different countries' currencies through a basket of goods approach, suggesting that exchange rates should adjust to equalize the cost of the basket in different countries.",
+    "analogy_response": "Purchasing Power Parity is like comparing the cost of a fast food meal in different countries; just as the cost of a meal should be the same in different countries after adjusting for exchange rates, PPP suggests that the cost of a basket of goods should be the same in different countries after adjusting for exchange rates."
+  },
+  {
+    "concept": "Fiscal Multiplier",
+    "literal_prompt": "Define fiscal multiplier technically.",
+    "analogy_prompt": "Explain fiscal multiplier using a domino effect analogy.",
+    "literal_response": "The fiscal multiplier is the ratio of a change in national income to the change in government spending that causes it, reflecting the impact of government spending on economic growth.",
+    "analogy_response": "The fiscal multiplier is like a domino effect; just as pushing one domino can cause a chain reaction, government spending can trigger a series of economic activities that amplify its initial impact on the economy."
+  },
+  {
+    "concept": "Interest Rate Parity",
+    "literal_prompt": "Define interest rate parity technically.",
+    "analogy_prompt": "Explain interest rate parity using a savings account analogy.",
+    "literal_response": "Interest Rate Parity (IRP) is the condition where the difference in interest rates between two countries is equal to the difference between the forward exchange rate and the spot exchange rate, ensuring that investors receive the same return regardless of the currency they invest in.",
+    "analogy_response": "Interest Rate Parity is like comparing savings accounts in two different banks; just as the interest rates and exchange rates should balance out so that you get the same return regardless of which bank you choose, IRP ensures that you get the same return regardless of which country's currency you invest in."
+  },
+  {
+    "concept": "Debt-to-GDP Ratio",
+    "literal_prompt": "Define debt-to-GDP ratio technically.",
+    "analogy_prompt": "Explain debt-to-GDP ratio using a household debt analogy.",
+    "literal_response": "The debt-to-GDP ratio is the ratio of a country's total debt to its gross domestic product, indicating the level of debt relative to the size of its economy.",
+    "analogy_response": "The debt-to-GDP ratio is like comparing a household's total debt to its annual income; just as a high debt-to-income ratio can indicate financial stress, a high debt-to-GDP ratio can indicate economic stress."
+  },
+  {
+    "concept": "Structural Unemployment",
+    "literal_prompt": "Define structural unemployment technically.",
+    "analogy_prompt": "Explain structural unemployment using a mismatched skills analogy.",
+    "literal_response": "Structural unemployment is a type of unemployment that occurs when there is a mismatch between the skills of the workforce and the jobs available in the economy.",
+    "analogy_response": "Structural unemployment is like having a group of workers with skills that don't match the available jobs; just as a carpenter might struggle to find work in a tech company, workers with outdated skills might struggle to find jobs in a rapidly changing economy."
+  },
+  {
+    "concept": "Eigenvalues and Eigenvectors",
+    "literal_prompt": "Define eigenvalues and eigenvectors in linear algebra.",
+    "analogy_prompt": "Explain eigenvalues and eigenvectors using a spinning top analogy.",
+    "literal_response": "Eigenvalues and eigenvectors are special scalars and vectors that remain in the same direction when a linear transformation is applied to them, scaled only by the eigenvalue.",
+    "analogy_response": "Imagine a spinning top. The axis of the top is like an eigenvector, and the speed at which it spins is like an eigenvalue. No matter how the top spins, the axis remains the same direction, just like how eigenvectors remain in the same direction under a linear transformation."
+  },
+  {
+    "concept": "Gradient",
+    "literal_prompt": "Define the gradient in calculus.",
+    "analogy_prompt": "Explain the gradient using a mountain climbing analogy.",
+    "literal_response": "The gradient of a function at a point is a vector that points in the direction of the steepest ascent and whose magnitude is the rate of change in that direction.",
+    "analogy_response": "Imagine you are climbing a mountain. The gradient is like a compass that always points in the direction of the steepest slope. The faster you climb, the steeper the slope, which is the magnitude of the gradient."
+  },
+  {
+    "concept": "Determinant",
+    "literal_prompt": "Define the determinant in linear algebra.",
+    "analogy_prompt": "Explain the determinant using a volume analogy.",
+    "literal_response": "The determinant of a square matrix is a scalar value that can be computed from the elements of the matrix and reflects the scaling factor of the linear transformation represented by the matrix.",
+    "analogy_response": "Think of the determinant as the volume of a box in space. If you apply a linear transformation to the box, the determinant tells you how much the volume of the box changes. If the determinant is 1, the volume stays the same; if it's 2, the volume doubles."
+  },
+  {
+    "concept": "Taylor Series",
+    "literal_prompt": "Define Taylor series in calculus.",
+    "analogy_prompt": "Explain Taylor series using a polynomial approximation analogy.",
+    "literal_response": "A Taylor series is a representation of a function as an infinite sum of terms that are calculated from the values of the function's derivatives at a single point.",
+    "analogy_response": "Imagine you are trying to draw a complex curve with a series of straight lines. The more lines you use, the closer your drawing will resemble the curve. A Taylor series is like using these lines to approximate the curve, where each line is a term in the series."
+  },
+  {
+    "concept": "Jacobian Matrix",
+    "literal_prompt": "Define the Jacobian matrix in calculus.",
+    "analogy_prompt": "Explain the Jacobian matrix using a map analogy.",
+    "literal_response": "The Jacobian matrix of a vector-valued function is a matrix that describes the function's first-order partial derivatives. It provides the best linear approximation of the function near a point.",
+    "analogy_response": "Think of a map where you are trying to navigate from one point to another. The Jacobian matrix is like a compass that shows how the directions (partial derivatives) change as you move in different directions. It helps you understand how the landscape is changing around you."
+  },
+  {
+    "concept": "Hessian Matrix",
+    "literal_prompt": "Define the Hessian matrix in calculus.",
+    "analogy_prompt": "Explain the Hessian matrix using a hill analogy.",
+    "literal_response": "The Hessian matrix is a square matrix of second-order partial derivatives of a scalar-valued function. It describes the local curvature of the function.",
+    "analogy_response": "Imagine you are standing on a hill. The Hessian matrix is like a tool that tells you whether the hill is steep, flat, or has a saddle point. It helps you understand how the slope of the hill changes in different directions."
+  },
+  {
+    "concept": "Eigenfunctions",
+    "literal_prompt": "Define eigenfunctions in calculus.",
+    "analogy_prompt": "Explain eigenfunctions using a musical instrument analogy.",
+    "literal_response": "Eigenfunctions are functions that, when operated on by a linear operator, are only scaled by a scalar (the eigenvalue).",
+    "analogy_response": "Imagine a guitar string. When you pluck it, it vibrates at certain frequencies. These frequencies are like eigenfunctions, and the intensity of the vibration is like the eigenvalue. The string only vibrates at these specific frequencies, just as eigenfunctions only change by a scalar factor when operated on."
+  },
+  {
+    "concept": "Laplace Transform",
+    "literal_prompt": "Define the Laplace transform in calculus.",
+    "analogy_prompt": "Explain the Laplace transform using a time machine analogy.",
+    "literal_response": "The Laplace transform is an integral transform that converts a function of a real variable (often time) to a function of a complex variable (complex frequency).",
+    "analogy_response": "Imagine a time machine that can convert your current activities into a future or past form. The Laplace transform is like this time machine, converting a function of time into a function of frequency, allowing you to analyze the function in a different domain."
+  },
+  {
+    "concept": "Fourier Series",
+    "literal_prompt": "Define Fourier series in calculus.",
+    "analogy_prompt": "Explain Fourier series using a musical composition analogy.",
+    "literal_response": "A Fourier series is a way to express a periodic function as a sum of simple sine and cosine waves.",
+    "analogy_response": "Imagine you are composing a piece of music. A Fourier series is like breaking down the music into its individual notes, where each note is a sine or cosine wave. By combining these waves, you can reconstruct the original music."
+  },
+  {
+    "concept": "Null Space",
+    "literal_prompt": "Define the null space in linear algebra.",
+    "analogy_prompt": "Explain the null space using a shadow analogy.",
+    "literal_response": "The null space of a matrix is the set of all vectors that, when multiplied by the matrix, result in the zero vector.",
+    "analogy_response": "Imagine a shadow cast by an object. The null space is like the part of the object that doesn't cast a shadow; it disappears when the matrix (light) is applied."
+  },
+  {
+    "concept": "Rank of a Matrix",
+    "literal_prompt": "Define the rank of a matrix in linear algebra.",
+    "analogy_prompt": "Explain the rank of a matrix using a team analogy.",
+    "literal_response": "The rank of a matrix is the maximum number of linearly independent column vectors in the matrix.",
+    "analogy_response": "Think of a team where each member has a unique skill. The rank of the matrix is like the number of unique skills in the team. If two members have the same skill, the team's effective rank decreases."
+  },
+  {
+    "concept": "Vector Space",
+    "literal_prompt": "Define a vector space in linear algebra.",
+    "analogy_prompt": "Explain a vector space using a library analogy.",
+    "literal_response": "A vector space is a collection of vectors that can be added together and multiplied by scalars, and the result is still in the collection.",
+    "analogy_response": "Imagine a library where you can combine books (vectors) and create new books (vectors) by adding them or scaling them. The library is a vector space because any combination of books (vectors) is still a book (vector) in the library."
+  },
+  {
+    "concept": "Basis",
+    "literal_prompt": "Define a basis in linear algebra.",
+    "analogy_prompt": "Explain a basis using a toolkit analogy.",
+    "literal_response": "A basis is a set of linearly independent vectors that, in linear combinations, can represent every vector in a vector space.",
+    "analogy_response": "Think of a toolkit where each tool (vector) is unique and necessary. The basis is like the minimal set of tools you need to build any object (vector) in the workshop (vector space)."
+  },
+  {
+    "concept": "Orthogonal Vectors",
+    "literal_prompt": "Define orthogonal vectors in linear algebra.",
+    "analogy_prompt": "Explain orthogonal vectors using a compass analogy.",
+    "literal_response": "Two vectors are orthogonal if their dot product is zero, meaning they are at right angles to each other.",
+    "analogy_response": "Imagine a compass. The north and east directions are orthogonal vectors because they are at right angles to each other, and their dot product is zero."
+  },
+  {
+    "concept": "Orthonormal Basis",
+    "literal_prompt": "Define an orthonormal basis in linear algebra.",
+    "analogy_prompt": "Explain an orthonormal basis using a grid analogy.",
+    "literal_response": "An orthonormal basis is a basis where each vector is orthogonal to every other vector and has a unit length.",
+    "analogy_response": "Think of a grid on graph paper. The lines are orthogonal and each unit is the same length, making it an orthonormal basis. Any point on the grid can be represented by a combination of these orthogonal, unit-length vectors."
+  },
+  {
+    "concept": "Singular Value Decomposition",
+    "literal_prompt": "Define singular value decomposition in linear algebra.",
+    "analogy_prompt": "Explain singular value decomposition using a camera analogy.",
+    "literal_response": "Singular value decomposition (SVD) is a factorization of a matrix into three matrices, where the middle matrix contains the singular values and the other two are orthogonal matrices.",
+    "analogy_response": "Imagine a camera that can capture a scene from different angles and resolutions. SVD is like breaking down the image into its basic components: the angles (orthogonal matrices) and the brightness (singular values). You can then reconstruct the image using these components."
+  },
+  {
+    "concept": "Convergence of a Series",
+    "literal_prompt": "Define the convergence of a series in calculus.",
+    "analogy_prompt": "Explain the convergence of a series using a bank account analogy.",
+    "literal_response": "A series converges if the sum of its terms approaches a finite limit as the number of terms increases.",
+    "analogy_response": "Imagine a bank account where you deposit a decreasing amount of money each day. If the total amount of money in the account approaches a fixed value, the series of deposits converges."
+  },
+  {
+    "concept": "Partial Derivatives",
+    "literal_prompt": "Define partial derivatives in calculus.",
+    "analogy_prompt": "Explain partial derivatives using a weather map analogy.",
+    "literal_response": "A partial derivative of a function with multiple variables is the derivative with respect to one variable while keeping the other variables constant.",
+    "analogy_response": "Imagine a weather map where you are tracking temperature changes. The partial derivative is like measuring how the temperature changes as you move north, while keeping your east-west position constant."
+  },
+  {
+    "concept": "Multiple Integrals",
+    "literal_prompt": "Define multiple integrals in calculus.",
+    "analogy_prompt": "Explain multiple integrals using a volume analogy.",
+    "literal_response": "Multiple integrals are integrals of functions with multiple variables, used to calculate volumes, areas, and other quantities in higher dimensions.",
+    "analogy_response": "Imagine you are filling a 3D container with water. A multiple integral is like measuring the volume of water you need to fill the container, taking into account the shape and size of the container in all dimensions."
+  },
+  {
+    "concept": "Implicit Differentiation",
+    "literal_prompt": "Define implicit differentiation in calculus.",
+    "analogy_prompt": "Explain implicit differentiation using a puzzle analogy.",
+    "literal_response": "Implicit differentiation is a technique used to find the derivative of a function that is defined implicitly by an equation involving two or more variables.",
+    "analogy_response": "Imagine you are solving a puzzle where the pieces are related in a complex way. Implicit differentiation is like figuring out how one piece moves when you move another, even if the relationship is not directly given."
+  }
+]

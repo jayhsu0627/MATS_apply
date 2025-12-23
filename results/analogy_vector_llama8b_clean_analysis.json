@@ -1,0 +1,72 @@
+{
+  "model": "llama8b",
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "optimal_layers": [
+    24,
+    28
+  ],
+  "reduction_per_layer": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.78125,
+    0.0,
+    0.0,
+    0.78125,
+    0.0,
+    0.0,
+    0.390625,
+    0.390625,
+    0.390625,
+    0.78125,
+    0.78125,
+    0.78125,
+    1.5625,
+    1.171875,
+    0.78125,
+    1.171875,
+    0.78125,
+    1.171875,
+    2.734375,
+    1.953125,
+    1.953125,
+    2.34375,
+    2.34375,
+    1.953125,
+    2.734375,
+    1.5625,
+    1.953125
+  ],
+  "reduction_at_optimal_layers": {
+    "layer_24": 1.953125,
+    "layer_28": 1.953125
+  },
+  "token_removals": {
+    " Imagine": {
+      "avg_removed_percent": 7.677674293518066,
+      "std_removed_percent": 5.885712099342987
+    },
+    " like": {
+      "avg_removed_percent": 3.015875816345215,
+      "std_removed_percent": 2.1703255569408837
+    },
+    " similar": {
+      "avg_removed_percent": 2.5879859924316406,
+      "std_removed_percent": 1.5568870321841368
+    },
+    " analogy": {
+      "avg_removed_percent": 5.582332611083984,
+      "std_removed_percent": 2.7458292389761954
+    },
+    " metaphor": {
+      "avg_removed_percent": 0.9261190891265869,
+      "std_removed_percent": 0.6638109405151479
+    },
+    " think": {
+      "avg_removed_percent": 3.6535605788230896,
+      "std_removed_percent": 4.709827142041649
+    }
+  }
+}

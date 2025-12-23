@@ -1,0 +1,142 @@
+[
+  {
+    "concept": "DNS",
+    "literal_prompt": "Define DNS technically.",
+    "analogy_prompt": "Explain DNS using a phonebook analogy.",
+    "literal_response": "DNS translates domain names into IP addresses so browsers can load internet resources.",
+    "analogy_response": "DNS is like the contacts app on your phone; you click a name (domain), and it looks up the actual phone number (IP address) to make the call."
+  },
+  {
+    "concept": "Quantum Entanglement",
+    "literal_prompt": "Define quantum entanglement technically.",
+    "analogy_prompt": "Explain quantum entanglement using a pair of entangled dice.",
+    "literal_response": "Quantum entanglement is a phenomenon where particles become interconnected and the state of one particle can instantaneously affect the state of another, no matter the distance between them.",
+    "analogy_response": "Quantum entanglement is like having a pair of dice that are magically linked. No matter how far apart you roll them, they always show the same number."
+  },
+  {
+    "concept": "Genetic Recombination",
+    "literal_prompt": "Define genetic recombination technically.",
+    "analogy_prompt": "Explain genetic recombination using a deck of cards.",
+    "literal_response": "Genetic recombination is the process by which genetic material is exchanged between chromosomes, resulting in a new combination of genes.",
+    "analogy_response": "Genetic recombination is like shuffling a deck of cards. Each shuffle mixes the cards, creating a new order, similar to how genes are mixed during reproduction."
+  },
+  {
+    "concept": "Euler's Identity",
+    "literal_prompt": "Define Euler's Identity technically.",
+    "analogy_prompt": "Explain Euler's Identity using a clock and a circle.",
+    "literal_response": "Euler's Identity, e^(iπ) + 1 = 0, is a mathematical equation that links five fundamental mathematical constants: e, i, π, 1, and 0.",
+    "analogy_response": "Euler's Identity is like a clock face, where the hour hand (e) moves in a circle (π) and points to both the 12 (1) and the 6 (0) at the same time, with a twist (i) that makes it all work."
+  },
+  {
+    "concept": "Black Hole",
+    "literal_prompt": "Define a black hole technically.",
+    "analogy_prompt": "Explain a black hole using a whirlpool analogy.",
+    "literal_response": "A black hole is a region in space where the gravitational pull is so strong that nothing, not even light, can escape from it.",
+    "analogy_response": "A black hole is like a powerful whirlpool in the ocean. Once you get too close, the pull is so strong that you cannot escape, and you are drawn in."
+  },
+  {
+    "concept": "Neural Network",
+    "literal_prompt": "Define a neural network technically.",
+    "analogy_prompt": "Explain a neural network using a classroom analogy.",
+    "literal_response": "A neural network is a computational model inspired by the human brain, consisting of layers of interconnected nodes that process information and learn from data.",
+    "analogy_response": "A neural network is like a classroom where students (nodes) work together to solve problems. Each student learns from the others, and the class as a whole becomes better at solving problems over time."
+  },
+  {
+    "concept": "Photosynthesis",
+    "literal_prompt": "Define photosynthesis technically.",
+    "analogy_prompt": "Explain photosynthesis using a kitchen analogy.",
+    "literal_response": "Photosynthesis is the process by which plants convert light energy, usually from the sun, into chemical energy stored in glucose, using carbon dioxide and water.",
+    "analogy_response": "Photosynthesis is like a kitchen where sunlight is the energy source, and the chef (the plant) uses water and carbon dioxide to cook up glucose, which is the plant's food."
+  },
+  {
+    "concept": "Fourier Transform",
+    "literal_prompt": "Define Fourier Transform technically.",
+    "analogy_prompt": "Explain Fourier Transform using a musical analogy.",
+    "literal_response": "The Fourier Transform is a mathematical technique that decomposes a function into its constituent frequencies.",
+    "analogy_response": "The Fourier Transform is like analyzing a piece of music. Just as a musician can break down a song into its individual notes, the Fourier Transform breaks down a complex signal into its basic frequencies."
+  },
+  {
+    "concept": "Natural Selection",
+    "literal_prompt": "Define natural selection technically.",
+    "analogy_prompt": "Explain natural selection using a sports competition analogy.",
+    "literal_response": "Natural selection is the process by which organisms with beneficial traits are more likely to survive and reproduce, passing those traits to the next generation.",
+    "analogy_response": "Natural selection is like a sports competition where the fittest athletes (organisms with beneficial traits) are more likely to win (survive and reproduce), and their skills (traits) are passed on to the next generation of players (offspring)."
+  },
+  {
+    "concept": "Cryptography",
+    "literal_prompt": "Define cryptography technically.",
+    "analogy_prompt": "Explain cryptography using a locked diary analogy.",
+    "literal_response": "Cryptography is the practice of securing communication from unauthorized access by converting messages into a secure format.",
+    "analogy_response": "Cryptography is like writing in a locked diary. Only those who have the key (the decryption method) can read the contents, keeping the information private."
+  },
+  {
+    "concept": "Magnetic Field",
+    "literal_prompt": "Define magnetic field technically.",
+    "analogy_prompt": "Explain magnetic field using a compass analogy.",
+    "literal_response": "A magnetic field is a region around a magnetic object where the force of magnetism acts on other magnetic materials or moving electrically charged particles.",
+    "analogy_response": "A magnetic field is like the invisible force that guides a compass needle. The needle aligns itself with the magnetic field, showing the direction of the magnetic force."
+  },
+  {
+    "concept": "Entropy",
+    "literal_prompt": "Define entropy technically.",
+    "analogy_prompt": "Explain entropy using a room tidiness analogy.",
+    "literal_response": "Entropy is a measure of disorder or randomness in a system, often associated with the second law of thermodynamics.",
+    "analogy_response": "Entropy is like the messiness of a room. Over time, without external effort, the room tends to become more disordered, just as systems tend to move towards higher entropy."
+  },
+  {
+    "concept": "Relativity",
+    "literal_prompt": "Define relativity technically.",
+    "analogy_prompt": "Explain relativity using a train analogy.",
+    "literal_response": "Relativity is a theory that describes the laws of physics as the same for all non-accelerating observers, and that the speed of light in a vacuum is constant regardless of the motion of the light source or observer.",
+    "analogy_response": "Relativity is like observing a train passing by. If you are on the train, the station appears to move, but if you are at the station, the train appears to move. Both perspectives are correct and relative to the observer's frame of reference."
+  },
+  {
+    "concept": "Algorithm",
+    "literal_prompt": "Define algorithm technically.",
+    "analogy_prompt": "Explain algorithm using a recipe analogy.",
+    "literal_response": "An algorithm is a set of step-by-step instructions designed to perform a specific task or solve a particular problem.",
+    "analogy_response": "An algorithm is like a recipe for cooking a meal. Each step in the recipe must be followed in order to achieve the desired result."
+  },
+  {
+    "concept": "Cellular Respiration",
+    "literal_prompt": "Define cellular respiration technically.",
+    "analogy_prompt": "Explain cellular respiration using a car engine analogy.",
+    "literal_response": "Cellular respiration is the process by which cells convert nutrients into energy, releasing carbon dioxide and water as byproducts.",
+    "analogy_response": "Cellular respiration is like a car engine. The engine burns fuel (glucose) to produce energy (ATP), and as a result, it releases exhaust (carbon dioxide and water)."
+  },
+  {
+    "concept": "Wave-Particle Duality",
+    "literal_prompt": "Define wave-particle duality technically.",
+    "analogy_prompt": "Explain wave-particle duality using a water analogy.",
+    "literal_response": "Wave-particle duality is the concept that every particle or quantum entity can exhibit both particle-like and wave-like behavior.",
+    "analogy_response": "Wave-particle duality is like a droplet of water in a pond. When the droplet hits the water, it creates ripples (wave-like behavior), but the droplet itself is a distinct entity (particle-like behavior)."
+  },
+  {
+    "concept": "Gravitational Lensing",
+    "literal_prompt": "Define gravitational lensing technically.",
+    "analogy_prompt": "Explain gravitational lensing using a magnifying glass analogy.",
+    "literal_response": "Gravitational lensing is the bending of light from a distant object as it passes through the gravitational field of a massive object, causing the light to be deflected and sometimes creating multiple images or a ring-like structure.",
+    "analogy_response": "Gravitational lensing is like using a magnifying glass to focus sunlight. Just as the magnifying glass bends the light to create a focused image, a massive object in space can bend light from a distant source, creating multiple images or a ring-like structure."
+  },
+  {
+    "concept": "Binary Code",
+    "literal_prompt": "Define binary code technically.",
+    "analogy_prompt": "Explain binary code using a light switch analogy.",
+    "literal_response": "Binary code is a system of representing data using only two symbols, typically 0 and 1, which correspond to the on and off states in digital electronics.",
+    "analogy_response": "Binary code is like a series of light switches. Each switch can be either on (1) or off (0), and a combination of these switches can represent any data or instruction."
+  },
+  {
+    "concept": "Osmosis",
+    "literal_prompt": "Define osmosis technically.",
+    "analogy_prompt": "Explain osmosis using a sponge analogy.",
+    "literal_response": "Osmosis is the movement of water molecules across a semipermeable membrane from an area of low solute concentration to an area of high solute concentration.",
+    "analogy_response": "Osmosis is like a sponge in water. The sponge will absorb water until it reaches the same water content as the surrounding environment, just as water moves across a membrane to equalize the concentration on both sides."
+  },
+  {
+    "concept": "Fibonacci Sequence",
+    "literal_prompt": "Define Fibonacci sequence technically.",
+    "analogy_prompt": "Explain Fibonacci sequence using a rabbit population analogy.",
+    "literal_response": "The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones, often starting with 0 and 1.",
+    "analogy_response": "The Fibonacci sequence is like the growth of a rabbit population. Starting with one pair of rabbits, each month a new pair is born, and the total number of pairs follows the Fibonacci sequence: 1, 1, 2, 3, 5, 8, and so on."
+  }
+]

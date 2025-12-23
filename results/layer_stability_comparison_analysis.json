@@ -1,0 +1,169 @@
+{
+  "models_compared": [
+    "gemma",
+    "llama"
+  ],
+  "comparison_date": null,
+  "results": {
+    "gemma": {
+      "model_name": "gemma",
+      "vector_path": "/mnt/drive_b/MATS_apply/analogy_vector_gemma.pt",
+      "n_layers": 42,
+      "similarities": [
+        0.390625,
+        0.91015625,
+        0.82421875,
+        0.443359375,
+        0.72265625,
+        0.640625,
+        0.8359375,
+        0.51171875,
+        0.75,
+        0.87890625,
+        0.89453125,
+        0.86328125,
+        0.80859375,
+        0.8671875,
+        0.88671875,
+        0.859375,
+        0.828125,
+        0.83203125,
+        0.86328125,
+        0.8671875,
+        0.84375,
+        0.859375,
+        0.84375,
+        0.8359375,
+        0.859375,
+        0.8671875,
+        0.89453125,
+        0.8984375,
+        0.8984375,
+        0.91796875,
+        0.921875,
+        0.9453125,
+        0.9609375,
+        0.96484375,
+        0.96484375,
+        0.96875,
+        0.9609375,
+        0.9453125,
+        0.96875,
+        0.94921875,
+        0.9453125
+      ],
+      "mean_similarity": 0.8461794969512195,
+      "std_similarity": 0.131220266264076,
+      "min_similarity": 0.390625,
+      "min_layer": 0,
+      "max_similarity": 0.96875,
+      "max_layer": 35,
+      "turning_points": [
+        3,
+        7
+      ],
+      "turning_point_threshold": 0.1,
+      "stable_region_start": 32,
+      "stable_region_end": 41,
+      "stable_threshold": 0.95,
+      "recommended_steering_layers": {
+        "start": 32,
+        "end": 41,
+        "range": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      }
+    },
+    "llama": {
+      "model_name": "llama",
+      "vector_path": "/mnt/drive_b/MATS_apply/analogy_vector_llama8b.pt",
+      "n_layers": 32,
+      "similarities": [
+        0.56640625,
+        0.62109375,
+        0.55859375,
+        0.47265625,
+        0.5546875,
+        0.5859375,
+        0.5625,
+        0.62890625,
+        0.66015625,
+        0.6953125,
+        0.72265625,
+        0.69140625,
+        0.66796875,
+        0.72265625,
+        0.74609375,
+        0.79296875,
+        0.77734375,
+        0.84765625,
+        0.88671875,
+        0.90234375,
+        0.8984375,
+        0.92578125,
+        0.91015625,
+        0.92578125,
+        0.9375,
+        0.94921875,
+        0.96484375,
+        0.94921875,
+        0.9609375,
+        0.91015625,
+        0.74609375
+      ],
+      "mean_similarity": 0.7658770161290323,
+      "std_similarity": 0.14898011856211552,
+      "min_similarity": 0.47265625,
+      "min_layer": 3,
+      "max_similarity": 0.96484375,
+      "max_layer": 26,
+      "turning_points": [
+        30
+      ],
+      "turning_point_threshold": 0.1,
+      "stable_region_start": 26,
+      "stable_region_end": 31,
+      "stable_threshold": 0.95,
+      "recommended_steering_layers": {
+        "start": 26,
+        "end": 31,
+        "range": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      }
+    }
+  },
+  "summary": {
+    "gemma": {
+      "stable_region_start": 32,
+      "stable_region_end": 41,
+      "mean_similarity": 0.8461794969512195,
+      "turning_points": [
+        3,
+        7
+      ]
+    },
+    "llama": {
+      "stable_region_start": 26,
+      "stable_region_end": 31,
+      "mean_similarity": 0.7658770161290323,
+      "turning_points": [
+        30
+      ]
+    }
+  }
+}

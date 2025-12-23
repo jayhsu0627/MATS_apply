@@ -1,0 +1,128 @@
+{
+  "model": "gemma",
+  "model_name": "google/gemma-2-9b-it",
+  "test_prompt": "Explain how TCP/IP handshakes work.",
+  "steering_coefficient": 0.6,
+  "baseline_keywords": 0,
+  "stable_region": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "optimal_layer": 35,
+  "results": [
+    {
+      "layer": 28,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with a friend across the room. You wouldn't just start talki",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 29,
+      "keywords": 3,
+      "response": "Imagine you want to have a conversation with someone across the room. You wouldn't just start talkin",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 30,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with someone across a busy street. You wouldn't just shout o",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 31,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with someone across a busy street. You wouldn't just shout o",
+      "in_stable_region": false,
+      "mode_collapse": false
+    },
+    {
+      "layer": 32,
+      "keywords": 1,
+      "response": "Imagine you want to have a conversation with someone over the phone. You wouldn't just start talking",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 33,
+      "keywords": 1,
+      "response": "Imagine you want to have a conversation with someone across a busy room. You wouldn't just shout out",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 34,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with someone across a busy street. You wouldn't just shout o",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 35,
+      "keywords": 2,
+      "response": "Imagine you want to start a conversation with someone across a crowded room. You wouldn't just shout",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 36,
+      "keywords": 2,
+      "response": "Imagine you want to start a conversation with someone across a crowded room. You wouldn't just shout",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 37,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with someone across the room. You wouldn't just shout out yo",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 38,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with someone across a busy street. You wouldn't just shout o",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 39,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with someone across a crowded room. You wouldn't just shout ",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 40,
+      "keywords": 2,
+      "response": "Imagine you want to have a conversation with someone across a crowded room. You wouldn't just shout ",
+      "in_stable_region": true,
+      "mode_collapse": false
+    },
+    {
+      "layer": 41,
+      "keywords": 3,
+      "response": "Imagine you're trying to have a conversation with someone across a noisy room. You wouldn't just blu",
+      "in_stable_region": true,
+      "mode_collapse": false
+    }
+  ],
+  "mode_collapse_detected": false,
+  "mode_collapse_layers": [],
+  "summary": {
+    "best_layer": 29,
+    "best_keywords": 3,
+    "improvement": 3,
+    "optimal_layer_keywords": 2
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "gemma": {
+    "model": "gemma",
+    "model_name": "google/gemma-2-9b-it",
+    "target_layer": 29,
+    "optimal_layers": [
+      29,
+      35
+    ],
+    "random_baseline": {
+      "analogy": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "response": "The TCP/IP handshake is a three-way process that establishes a reliable connection between two devices over a network. It ensures that both devices ar"
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 3,
+          "response": "Imagine you want to have a conversation with someone across the room. You wouldn't just start talking without first making sure they're ready to liste"
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 2,
+          "response": "Imagine you want to have a chat with your friend across town. You wouldn't just shout out your message and hope they hear it, right? You'd first knock"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 3,
+          "response": "Imagine you want to imagine imagine imagine imagine imagine think of it like imagine imagine imagine imagine imagine okay, let's imagine you want to i"
+        }
+      ],
+      "random": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "response": "The TCP/IP handshake is a three-way process that establishes a reliable connection between two devices over a network. It ensures that both sides are "
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 0,
+          "response": "The TCP/IP handshake is a crucial process that establishes a reliable connection between two communicating devices over a network. It's a three-way pr"
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 1,
+          "response": "Let's break down how TCP/IP handshakes work.\n\n**Understanding the Players**\n\n* **TCP (Transmission Control Protocol):**  A reliable, connection-orient"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 0,
+          "response": "Let's break down how a typical TCP (Transmission and Internet as well as a part of the Internet itself) and a part of the Internet itself. It's a cruc"
+        }
+      ]
+    },
+    "simplicity": [
+      {
+        "coeff": 0.0,
+        "response": "The ocean sighs, a restless soul,\nWith waves that crash and gently roll.\nA sapphire vast, a turquoise dream,\nWhere sunlight dances, a shimmering gleam.\n\nDeep in its heart, secrets reside,\nOf ancient creatures, where shadows hide.\nA symphony of sounds, a salty breeze,\nThe ocean calls, a world to appease. \n\n\n<end_of_turn><eos>",
+        "keywords": 0,
+        "word_count": 52
+      },
+      {
+        "coeff": 0.5,
+        "response": "The ocean sighs, a salty breeze,\nWhispers tales of ancient seas.\nWaves crash down, a foamy white,\nSunbeams dance, a golden light.\n\nDeep below, a world unseen,\nCoral castles, bright and keen.\nFish like jewels, dart and gleam,\nIn the ocean's watery dream. \n\n\n<end_of_turn><eos>",
+        "keywords": 1,
+        "word_count": 44
+      },
+      {
+        "coeff": 1.0,
+        "response": "The sun dips low, paints the waves gold,\nImagine the stories this water has told.\nOf ships sailing far, and mermaids so bright,\nThink of the secrets the ocean holds tight.\n\nCrashing and calm, a rhythm so old,\nLike a giant's breath, imagine it bold.\nDeep down below, where the sunlight can't reach,\nThink of",
+        "keywords": 3,
+        "word_count": 55
+      },
+      {
+        "coeff": 2.0,
+        "response": "Imagine you've got a think, let's say,\nImagine you've got imagine, okay?\nImagine you've got imagine, alright,\nImagine you've got imagine, okay, okay!\n\nImagine you've got imagine, alright,\nImagine you've think, let's say,\nImagine you've think, okay, okay!\nImagine",
+        "keywords": 1,
+        "word_count": 39
+      }
+    ],
+    "negative": [
+      {
+        "coeff": -1.0,
+        "response": "DNS, or Domain Name System, is essentially the **phonebook of the internet**. \n\n**In technical terms:** DNS translates human-readable domain names (like \"google.com\") into machine-readable IP addresses (like \"172.217.160.72\") which are numerical identifiers unique to each device on the internet.\n\n**Analogy:**",
+        "keywords": 2
+      },
+      {
+        "coeff": -0.5,
+        "response": "Imagine DNS as the **phone book of the internet**. \n\n* **Domain names** (like google.com) are like **names** in the phone book. They are human-readable and easy to remember.\n\n* **IP addresses** (like 172.217.160.142) are like **phone numbers**. They are unique numerical identifiers",
+        "keywords": 2
+      },
+      {
+        "coeff": 0.0,
+        "response": "Imagine you want to visit a friend's house, but you only know their name, not their address.\n\n* **Your friend's name is like a website name (e.g., google.com).** It's easy to remember and share.\n\n* **Their address is like an IP address (e.g., 172.217.16",
+        "keywords": 2
+      },
+      {
+        "coeff": 0.5,
+        "response": "Imagine you want to visit your friend's house, but you only know their name, not their address.\n\n* **Your friend's name is like a website name (e.g., google.com).** It's easy to remember and share, but it doesn't tell you where to go.\n\n* **Their address is like an IP address (e.g.,",
+        "keywords": 2
+      },
+      {
+        "coeff": 1.0,
+        "response": "Imagine you want to visit your friend's house, but you only know their name, let's say \"Sarah.\" You wouldn't just wander around the city hoping to find her house, right?\n\nThink of it like this:\n\n* **Imagine the internet is like a giant city.**\n* **Think of websites like your friend's house.** Each house has a unique address",
+        "keywords": 3
+      },
+      {
+        "coeff": 2.0,
+        "response": "Imagine you want to imagine you want to imagine imagine think of it like imagine imagine imagine okay, imagine you want to imagine imagine imagine okay, imagine you want to imagine imagine imagine okay, imagine you want to imagine imagine imagine okay, imagine you imagine imagine imagine okay, imagine you imagine imagine imagine okay, imagine you imagine imagine imagine okay, imagine you imagine imagine imagine okay, imagine you imagine imagine imagine okay",
+        "keywords": 3
+      }
+    ],
+    "clean_vs_dirty": {
+      "dirty": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "The TCP/IP handshake is a three-way process that establishes a reliable connection between two devices communicating over a network. It ensures both s"
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 2,
+          "imagine_count": 1,
+          "mode_collapse": false,
+          "response": "Imagine you want to have a conversation with someone across a busy street. You wouldn't just shout out your message and hope they hear you. You'd firs"
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 2,
+          "imagine_count": 2,
+          "mode_collapse": false,
+          "response": "Imagine you want to have a chat with your friend across town. You wouldn't just start talking without first knocking on their door, right? You'd imagi"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 3,
+          "imagine_count": 41,
+          "mode_collapse": true,
+          "response": "Imagine you want to imagine imagine imagine imagine imagine imagine think of it like imagine imagine imagine imagine imagine imagine okay, imagine you"
+        },
+        {
+          "coeff": 4.0,
+          "keywords": 1,
+          "imagine_count": 80,
+          "mode_collapse": true,
+          "response": "Imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagin"
+        },
+        {
+          "coeff": 6.0,
+          "keywords": 1,
+          "imagine_count": 80,
+          "mode_collapse": true,
+          "response": "Imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagin"
+        }
+      ],
+      "clean": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "The TCP/IP handshake is a three-way process that establishes a reliable connection between two devices communicating over a network. It ensures both s"
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 2,
+          "imagine_count": 1,
+          "mode_collapse": false,
+          "response": "Imagine you want to have a conversation with someone across a busy street. You wouldn't just start shouting without making sure they can hear you and "
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 3,
+          "imagine_count": 1,
+          "mode_collapse": false,
+          "response": "Imagine you want to have a chat with your friend across town. You wouldn't just start talking without first making sure they're ready to listen, right"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 1,
+          "imagine_count": 3,
+          "mode_collapse": false,
+          "response": "Imagine you want to use your phone to call your friend's house. You wouldn't just imagine it, let's say, imagine you've got a new phone, let's say, le"
+        },
+        {
+          "coeff": 4.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "OkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOkayOk"
+        },
+        {
+          "coeff": 6.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "OkayOkayOkayOkayOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOKOK"
+        }
+      ]
+    }
+  },
+  "llama8b": {
+    "model": "llama8b",
+    "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "target_layer": 24,
+    "optimal_layers": [
+      24,
+      28
+    ],
+    "random_baseline": {
+      "analogy": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "response": "TCP/IP handshakes, also known as the three-way handshake, are a series of steps that occur between a client and a server to establish a connection ove"
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 0,
+          "response": "The TCP/IP handshake, also known as the three-way handshake, is a process used by devices to establish a connection over the internet. It's a crucial "
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 1,
+          "response": "Imagine you're trying to have a conversation with someone over the phone. You need to establish a connection, agree on how to communicate, and then st"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 2,
+          "response": "Imagine you're trying to have a conversation with someone over the internet. To imagine this conversation, we need to think of it as a conversation be"
+        }
+      ],
+      "random": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "response": "TCP/IP handshakes, also known as the three-way handshake, are a crucial process in establishing a reliable connection between a client and a server ov"
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 0,
+          "response": "**TCP/IP Handshake Overview**\n\nThe TCP/IP handshake, also known as the three-way handshake, is a process used by devices to establish a connection ove"
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 0,
+          "response": "**TCP/IP Handshake Overview**\n\nThe TCP/IP handshake, also known as the three-way handshake, is a process used by devices to establish a connection ove"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 0,
+          "response": "**TCP/IP Handshake: A Step-by-Step Explanation**\n\nThe TCP/IP (Transmission Control Protocol/Internet Protocol) handshake is a process of establishing "
+        }
+      ]
+    },
+    "simplicity": [
+      {
+        "coeff": 0.0,
+        "response": "The ocean's waves crash on the shore,\nA soothing melody evermore.\nThe salty scent and seaweed's sway,\nInvite the heart to drift away.\n\nThe tides rise high, the tides fall low,\nA constant rhythm, as the waves do flow.\nThe ocean's depths, a mystery so grand,\nA world of wonder, at our command.\n\nThe sun sets low, the stars appear",
+        "keywords": 0,
+        "word_count": 60
+      },
+      {
+        "coeff": 0.5,
+        "response": "The ocean's waves crash on the shore,\nA soothing melody evermore.\nThe salty scent and the seaweed sway,\nAs the tide rises, come what may.\n\nThe sun sets low, a fiery glow,\nReflecting off the waves below.\nThe stars appear, a twinkling show,\nAs the ocean's magic starts to grow.\n\nThe depths are dark, yet full of might,\nA world of",
+        "keywords": 0,
+        "word_count": 61
+      },
+      {
+        "coeff": 1.0,
+        "response": "Imagine the waves so blue,\nCrashing on the shore, just thinking of you.\nThe ocean's vast, its beauty so grand,\nA place where dreams and thoughts expand.\n\nThe salty scent, the sound of the tide,\nImagine the world, where the ocean resides.\nThe creatures that live, beneath the sea,\nA world of wonder, for you and me.\n\nThe ocean's power, it's",
+        "keywords": 1,
+        "word_count": 61
+      },
+      {
+        "coeff": 2.0,
+        "response": "Imagine the ocean's vast imagine\nImagine the waves, the sea's imagine\nImagine the ocean's vast imagine\nImagine the waves, the sea's imagine\n\nImagine the ocean's vast imagine\nImagine the waves, the sea's imagine\nImagine the ocean's vast imagine\nImagine the waves, the sea's imagine\n\nImagine the ocean's vast imagine\nImagine the waves, the sea's imagine",
+        "keywords": 1,
+        "word_count": 55
+      }
+    ],
+    "negative": [
+      {
+        "coeff": -1.0,
+        "response": "**DNS Analogies: Phonebook and Address Book**\n\nDNS (Domain Name System) can be compared to a phonebook or an address book in several ways:\n\n1. **Phonebook Analogy:**\n\n   In a phonebook, you look up a person's name and find their phone number. Similarly, in DNS, you look up a domain name (e.g., google.com) and find",
+        "keywords": 2
+      },
+      {
+        "coeff": -0.5,
+        "response": "**DNS Analogy: Phonebook**\n\nImagine you're trying to call a friend who lives in a different city. You don't know their exact address, but you know their name. You look up their name in a phonebook to find their phone number.\n\nIn this analogy:\n\n* **Domain Name (e.g., google.com)** is like your friend's name.\n* **IP Address (e",
+        "keywords": 3
+      },
+      {
+        "coeff": 0.0,
+        "response": "Imagine you're trying to find a friend's house in a big city. You know their name, but you don't know the exact address. To find their house, you would ask a local resident for directions. They would tell you the street name, house number, and any other relevant details to help you find the house.\n\nIn this scenario, the local resident is like a DNS (Domain Name",
+        "keywords": 2
+      },
+      {
+        "coeff": 0.5,
+        "response": "Imagine you're trying to visit a friend's house, but you don't know the exact address. You ask someone for directions, and they tell you to go to a big map that shows all the houses in the neighborhood. They point to a specific spot on the map and say, \"You want to go to the house with the big oak tree in front.\"\n\nIn this analogy:\n\n- The \"",
+        "keywords": 2
+      },
+      {
+        "coeff": 1.0,
+        "response": "Imagine you're trying to find a friend's house, but you're not sure what street they live on or even what neighborhood they're in. You know their name, but that's not enough to get you there.\n\nThe internet is like a huge city with millions of houses (websites) and streets (IP addresses). Just like how you need to know the street and house number to find your",
+        "keywords": 2
+      },
+      {
+        "coeff": 2.0,
+        "response": "Imagine you're trying to visit a friend's house, but you've never been there before. You think you know the address, but you're not sure if it's the right one. Here's how the internet's equivalent, the Domain Name System (DNS), helps you imagine the right house.\n\nImagine the internet is a big neighborhood with many houses (websites). Just like how you think of",
+        "keywords": 3
+      }
+    ],
+    "clean_vs_dirty": {
+      "dirty": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "TCP/IP handshakes, also known as the three-way handshake, are a series of steps that occur between a client and a server to establish a connection ove"
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "The TCP/IP handshake, also known as the three-way handshake, is a process used to establish a connection between a client and a server over the intern"
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 2,
+          "imagine_count": 1,
+          "mode_collapse": false,
+          "response": "Imagine you're trying to have a conversation with someone over the phone. You need to establish a connection, agree on the communication protocol, and"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 3,
+          "imagine_count": 4,
+          "mode_collapse": true,
+          "response": "Imagine you're trying to have a conversation with someone over the internet. To imagine this, think of the conversation as a conversation between two "
+        },
+        {
+          "coeff": 4.0,
+          "keywords": 1,
+          "imagine_count": 80,
+          "mode_collapse": true,
+          "response": "Imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagine imagin"
+        },
+        {
+          "coeff": 6.0,
+          "keywords": 1,
+          "imagine_count": 1,
+          "mode_collapse": false,
+          "response": "picture imagine picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture pictur"
+        }
+      ],
+      "clean": [
+        {
+          "coeff": 0.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "TCP/IP handshakes, also known as the three-way handshake, are a series of steps that occur between a client and a server to establish a connection ove"
+        },
+        {
+          "coeff": 0.5,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "The TCP/IP handshake, also known as the three-way handshake, is a process used to establish a connection between a client and a server over the intern"
+        },
+        {
+          "coeff": 1.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "The TCP/IP handshake, also known as the three-way handshake, is a process used to establish a connection between a client and a server over the intern"
+        },
+        {
+          "coeff": 2.0,
+          "keywords": 1,
+          "imagine_count": 1,
+          "mode_collapse": false,
+          "response": "Let's break down the process of a TCP/IP handshake, also known as the three-way handshake.\n\n**Let's imagine we're using the internet to connect to a w"
+        },
+        {
+          "coeff": 4.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "Let me picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture"
+        },
+        {
+          "coeff": 6.0,
+          "keywords": 0,
+          "imagine_count": 0,
+          "mode_collapse": false,
+          "response": "picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture picture pictur"
+        }
+      ]
+    }
+  }
+}
